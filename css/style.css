@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.fix {
+	overflow: hidden;
+}
+
+.video-container{
+ }
+
+video {
+	position: absolute;
+	transform: translate(-50%;-50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
+.container{
+	position: relative;
+	width: 415px;
+	margin: 0 auto;
+	margin-top: -98px;
+	background-color: rgb(82, 94, 111);
+	padding-top: 90px;
+	font-family: Helvetica;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+.my-img{
+	width: 125px;
+    height: 210px;
+	margin: 0 auto;
+}
+
+.my-img img{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	opacity: 0.8;
+	z-index: 3;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.login {
+	width: 415px;
+	margin: 0 auto;
+	margin-top: -18px;
+}
+
+.login h1{
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 18px;
+	color: rgb(230, 230, 230);
+
+}
+
+
+
+
+.text-field
+{
+	background-color: #1A1717;
+    border: 1px none;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    padding-left: 35px;
+    width: 305px;
+}
+.login-form::before{
+	content: "\f007";
+    font-family: "FontAwesome";
+    margin-top: 15px;
+    padding-left: 40px;
+    position: absolute;
+    font-size:20px;
+    color:#EA7C7C;
+}
+
+.login-form: {
+	transition-duration: 2s;
+	
+}
+.check-box {
+	margin-left: 30px;
+	margin-bottom: 20px;
+	color: #FCF9F9;
+}
+.btn{
+	width: 160px;
+	margin: 0 auto;
+	margin-left: 29px;
+	padding: 4px;
+	font-size: 20px;
+	background-color: #1A1717;
+	border: 1px;
+	color: rgb(230, 230, 230);
+	transition-duration: 2s;
+}
+.btn:active{
+  	background: rgb(39, 174, 96);
+}
+
+.btn:hover{
+	cursor:pointer;
+	
+}
+
+
+.sign-up-btn {
+	width: 160px;
+	margin: 0 auto;
+	margin-left: 29px;
+	padding: 4px;
+	font-size: 20px;
+	background-color: #1A1717;
+	border: 1px;
+	color: rgb(230, 230, 230);
+	transition-duration: 2s;
+}
+
+.sign-up-btn:active{
+  	background: rgb(39, 174, 96);
+}
+
+.sign-up-btn:hover{
+	cursor:pointer;
+}
+
+.footer p {
+	margin-left: -5px;
+	text-align: center;
+	padding-bottom: 28px;
+	margin-top: 18px;
+	color: #1A1717;
+}
+
+.footer a {
+	color: rgb(39, 174, 96);
+	
+}
+.footer span {
+	color: rgb(230, 230, 230);
+}
